@@ -1,6 +1,6 @@
 baseline是基于pytorch实现的论文《Multiway Attention Networks for Modeling Sentence Pairs》
 
-将baseline迁移到了python 3.6.6
+将baseline迁移到了python 3.6.6，修正了错误。改变参数最高accuracy为	0.70370，未能进前100 。
 需要 pytorch 0.4.1 以及jieba分词
 
 1.预处理并训练
@@ -17,4 +17,4 @@ python inference.py --data data/ai_challenger_oqmrc_testa_20180816/ai_challenger
 
 
 3. 在testa集合上的一次测试结果accuracy为0.682，对应测试文件为prediction.a.txt
-改变参数最高accuracy为	0.70370，未能进前100 
+
